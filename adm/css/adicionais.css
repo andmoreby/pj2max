@@ -1,0 +1,199 @@
+
+
+/* Múltiplos Estilos */
+txt,txt:focus,bt,bt:hover,a,a:hover,#cadastrar:hover,#cadastrar,#outro:hover, #outro, txt2, txt2:focus, txt3, txt3:focus{
+	transition:all 0.5s linear;
+	-webkit-box-shadow:all 0.5s linear;
+}
+
+
+
+/* Layout */
+@import url(http://fonts.googleapis.com/css?family=Lato);
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  font: 1em/1.5 Oswald;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+}
+
+body {
+  font-size: 1.3em;
+}
+
+header {
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+  background: url(https://pixabay.com/static/uploads/photo/2015/11/16/00/00/painting-with-light-1044989_960_720.jpg) center no-repeat;
+  /* Image Credit: Unsplash.me */
+  background-size: cover;
+}
+
+header .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+header h1{
+
+}
+
+header h1,
+header h2 {
+  margin: 0;
+}
+
+header h2 {
+  text-transform: uppercase;
+  margin-top: -.5em;
+}
+
+header hgroup {
+background: url(../imagens/the.png) center no-repeat;
+width:650px;
+height:100px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  padding: .5em 3em;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #333 center no-repeat;
+  background-size: cover;
+  z-index: 0;
+  opacity: 0;
+  -webkit-filter: blur(4px);
+}
+
+img {
+  margin-right: 20px
+}
+
+.site {
+  padding-top: 5px;
+  text-align: center;
+  background-color: #efefef;
+  font-size: 20px;
+  color: #444;
+  position: relative
+}
+
+.site a {
+  color: #666;
+  text-decoration: none;
+}
+
+.site a:hover {
+  color: #222;
+}
+
+.site nav {
+  position: absolute;
+  display:block;
+  top: 0;
+  left: 0;
+  background: #222;
+  width: 100%
+}
+
+.site nav a {
+  padding: 10px 30px;
+  font-size: 1.3em;
+  display: inline-block
+}
+
+.site nav a:hover {
+  background: #333;
+  color: #fff
+}
+
+
+/*	Sidebar */
+@import "compass/css3";
+
+@import url('http://getbootstrap.com/dist/css/bootstrap.css');
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+
+body {
+  background: none repeat scroll 0 0 white; }
+
+nav.sidebar-menu-collapsed {
+  width: 50px; }
+nav.sidebar-menu-expanded {
+  width: 106px; }
+nav.sidebar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background: none repeat scroll 0 0 #0099ff;
+  color: white;
+  padding: 20px 10px; }
+  nav.sidebar a#justify-icon {
+    outline: 0;
+    color: white;
+    font-size: 24px;
+    font-style: normal; }
+  nav.sidebar a#logout-icon {
+    outline: 0;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    position: absolute;
+    bottom: 10px;
+    left: 10px; }
+  nav.sidebar ul { 
+    margin: 0;
+    padding: 0;
+    margin-top: 60px; }
+    nav.sidebar ul li {
+      margin: 0;
+      padding: 0;
+      margin-top: 20px;
+      list-style-type: none; }
+      nav.sidebar ul li a.expandable {
+        outline: 0;
+        color: white;
+        text-decoration: none;
+        font-size: 20px; }
+        nav.sidebar ul li a.expandable:hover {
+          color: #bbbbbb; }
+        nav.sidebar ul li a.expandable span.expanded-element {
+          margin-left: 2px;
+          display: none;
+          font-size: 11px;
+          position: relative;
+          bottom: 2px; }
+      nav.sidebar ul li.active {
+        background: none repeat scroll 0 0 black;
+        border-radius: 4px;
+        text-align: center;
+        margin-left: -4px;
+        padding: 4px; }
+        nav.sidebar ul li.active a.expandable {
+          color: white !important; }
+          nav.sidebar ul li.active a.expandable:hover {
+            color: white !important; }

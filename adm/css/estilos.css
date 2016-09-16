@@ -1,0 +1,523 @@
+/* Esses é a formatação inicial */
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+body{
+	padding:;
+	background:#F5F5F5;
+}
+
+/* Formatação das divs que embelezam o site */
+div#site{
+	margin:auto;
+	background:white;
+	width:1300px;
+	height:100%;
+	padding:1px;	
+}
+
+div#topo{
+	background: url(../imagens/f2.jpg);
+	height:190px;
+	margin:3px;
+	padding:3px;
+}
+
+
+div#conteudo{
+	background:#696969;
+	width:789px;
+	height:953px;
+	margin:3px;
+	float:left;
+	padding:3px;
+}
+
+div#tela{
+	background:#bdbdbd;
+	width:100%;
+	height:652px;
+	margin:0px;
+	padding:0px;
+}
+
+div#planer{
+	background:#696969;
+	width:989px;
+	height:953px;
+	margin:3px;
+	padding:3px;
+}
+
+div#tela2{
+	background:#bdbdbd;
+	width:1089px;
+	height:252px;
+	margin:3px;
+	padding:3px;
+	float:left;
+}
+
+div#lat{
+	background:#58acfa;
+	width:190px;
+	height:252px;
+	margin-top:3px;
+	margin-right:3px;
+	float:right;
+	padding:3px;
+}
+
+div#tela3{
+	background:#bdbdbd;
+	width:1288px;
+	height:398px;
+	margin-top:3px;
+	margin-left:3px;
+	margin-right:3px;
+	clear:both;
+	padding:3px;
+}
+
+div#tela4{
+	background:#bdbdbd;
+	width:1288px;
+	height:598px;
+	margin-top:3px;
+	margin-left:3px;
+	margin-right:3px;
+	clear:both;
+	padding:3px;
+}
+
+div#ca2{
+	background:#58acfa;
+	width:990px;
+	height:303px;
+	margin-top:3px;
+	margin-left:3px;
+	margin-right:3px;
+	clear:both;
+	padding:3px;
+}
+
+div#lateral{
+	background:#58acfa;
+	width:190px;
+	height:300px;
+	margin-top:3px;
+	margin-right:3px;
+	float:right;
+	padding:3px;
+}
+
+div#llateral{
+	background:#006400;
+	width:190px;
+	height:643px;
+	margin-top:3px;
+	margin-right:3px;
+	float:right;
+	padding:3px;
+}
+
+div#cad{
+	background:#bdbdbd;
+	height:42px;
+	margin:3px;
+	padding-bottom:3px;
+	clear:both;
+}
+
+
+div#rodape{
+	background:#bdbdbd;
+	height:30px;
+	margin:3px;
+	padding:3px;
+	clear:both;
+	position:block;
+}
+
+div#barra{
+	background:;
+	height:30px;
+	margin:2px;
+	padding:3px;
+	clear:both;
+	position:block;
+}
+
+div#cadastrar{
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:15px;
+	-webkit-border-bottom-left-radius:8px;
+	-webkit-border-bottom-right-radius:15px;
+	-moz-border-radius-bottomleft:8px;
+	-moz-border-radius-bottomright:8px;
+	height:40px;
+	width:120px;
+	font: 700 18px Oswald;
+	background:#00ff40;
+	color:black;
+	text-align:center;
+	line-height:40px;
+	float:right;
+	z-index:2;
+	border:thin solid #bdbdbd;
+}
+#cadastrar a{
+	color:white;
+	text-decoration:none;
+	padding-top:5px;
+	display:block;
+	font:700 18px Oswald;
+	margin: color black;
+}
+
+#cadastrar:hover{
+	background:#09f;
+	color:#fff;
+}
+
+#cadastrar:hover a{
+	color:#fff;
+
+}
+
+
+#outro a{
+	color:white;
+	text-decoration:none;
+	padding-top:5px;
+	position:center;
+	display:block;
+	font:700 18px Oswald;
+}
+
+#outro:hover{
+	background:#09f;
+	color:#fff;
+}
+
+#outro:hover a{
+	color:#fff;
+
+}
+
+
+	
+/* Definições */
+a{
+	color:white;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#006400;
+	
+}
+
+
+
+/* Classes */
+
+.topo{
+	font-size:80px;
+	font-family: "Oswald";
+	color:white;
+	text-align:center;
+	border-radius:6px;
+	-webkit-box-shadow:6px;
+	-moz-box-shadow:6px;
+	text-shadow: 2px 2px 5px red;
+}
+
+.menu{
+	font-family: "Oswald";
+	font-size:33px;
+	text-align:center;
+	border-radius:6px;
+	-webkit-box-shadow:6px;
+	-moz-box-shadow:6px;
+	
+}
+
+.tela{
+	font-size:20px;
+	font-family: "Oswald";
+	text-align:center;
+	border-radius:6px;
+	-webkit-box-shadow:6px;
+}
+
+.men{
+	border:none;
+	border:thin solid black;
+	height:100px;
+	width:500px;	
+	position:justify;
+}
+
+.men:focus{
+	border:thin solid #09f;
+	box-shadow: 0 2px 10px #09f;
+	-webkit-box-shadow:0 2px 10px #09f;
+	-moz-box-shadow:0 2px 10px #09f;
+}
+
+.txt{
+	border:none;
+	border:thin solid black;
+	height:30px;
+	width:250px;	
+	position:justify;
+}
+
+.txt:focus{
+	border:thin solid #09f;
+	box-shadow: 0 2px 10px #09f;
+	-webkit-box-shadow:0 2px 10px #09f;
+	-moz-box-shadow:0 2px 10px #09f;
+}
+
+.txt2{
+	border:none;
+	border:thin solid black;
+	height:30px;
+	width:50px;	
+	position:justify;
+}
+
+.txt2:focus{
+	border:thin solid #09f;
+	box-shadow: 0 2px 10px #09f;
+	-webkit-box-shadow:0 2px 10px #09f;
+	-moz-box-shadow:0 2px 10px #09f;
+}
+
+.txt3{
+	border:none;
+	border:thin solid black;
+	height:30px;
+	width:150px;	
+	position:justify;
+}
+
+.txt3:focus{
+	border:thin solid #09f;
+	box-shadow: 0 2px 10px #09f;
+	-webkit-box-shadow:0 2px 10px #09f;
+	-moz-box-shadow:0 2px 10px #09f;
+}
+
+
+
+
+
+.bt{
+	display:block;
+	border:none;
+	height:40px;
+	width:250px;
+	cursor:pointer;
+	font:400 18px  Oswald;
+	margin-top:10px;
+	 cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	
+	}
+	
+.bt:hover{
+	
+	background:#58d3f7;
+	color:#fff;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.bt2{
+	display:block;
+	border:none;
+	height:80px;
+	width:250px;
+	cursor:pointer;
+	font:400 50px Oswald;
+	margin-top:10px;
+	 cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	
+	}
+	
+.bt2:hover{
+	
+	background:red;
+	color:#fff;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.conteudo{
+	font-size:45px;
+	font-family: "Oswald";
+	color: white;
+	text-align:center;
+	border-radius:6px;
+	-webkit-box-shadow:6px;
+	-moz-box-shadow:6px;
+	
+}
+
+.lateral{
+	font-size:33px;
+	font-family: "Oswald";
+	color:white;
+	text-align:center;
+	border-radius:6px;
+	-webkit-box-shadow:6px;
+	-moz-box-shadow:6px;
+	
+}
+
+.rodape{
+	font-size:20px;
+	font-family: "Oswald";
+	color:black;
+	text-align:center;
+	border-radius:6px;
+	-webkit-box-shadow:6px;
+	-moz-box-shadow:6px;
+	
+}
+.barra{
+	font-size:20px;
+	font-family: "Oswald";
+	color:black;
+	text-align:center;
+	border-radius:6px;
+	-webkit-box-shadow:6px;
+	-moz-box-shadow:6px;
+	
+}
+
+.cad{
+	font-size:20px;
+	font-family: "Oswald";
+	color:white;
+	text-align:center;
+	border-radius:6px;
+	-webkit-box-shadow:6px;
+	-moz-box-shadow:6px;
+	
+}
+
+
+.rodape2{
+	font-size:20px;
+	font-family: "Oswald";
+	color:yellow;
+	text-align:center;
+	border-radius:6px;
+	-webkit-box-shadow:6px;
+	-moz-box-shadow:6px;
+	
+}
+
+
+/* Heranças */
+
+.fleft{
+	float:left;
+}
+
+.fright{
+	float:right;
+}
+
+.bradius{
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+}
+
+.flash{
+	width:1349px;
+	height:40px;
+	background:#C00;
+	opacity:2;
+	text-align:center;
+	line-height:40px;
+	font:300 28px "Oswald";
+	color:#fff;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+
+
+/* Coluna */
+.newspaper {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    column-gap: 40px;
+    -webkit-column-rule: 1px solid lightblue; /* Chrome, Safari, Opera */
+        column-rule: 1px solid lightblue;
+}
+
+/* Topo */
+ul#barra-rapido {
+    float: right;
+    list-style: none;  
+    width: 750px;
+    margin: 1px 0 0 0;
+    font-size: 1.05em;
+    color: black;
+}
+
+ul#barra-rapido li.conta {
+    background: url('../imagens/user.png') left center no-repeat;
+}
+
+ul#barra-rapido li.login {
+    background: url('../imagens/login.png') left center no-repeat;
+}
+
+ul#barra-rapido li {
+    float: right;
+    padding-left: 20px;
+    margin: 0 23 0 23px;
+}
+
+#box-top {
+    float: right;
+    width: 750px;
+    margin: 40px 0 0 0;
+}
+
+#box-top .atendimento {
+    float: right;
+    font-size: 2.4em;
+    color: #666;
+    padding: 5px 0 5px 40px;
+    margin-left: 60px;
+    background: url('../images/layout/ico_fone.png') left center no-repeat;
+}
+#busca {
+    float: right;
+    margin: 4px 0 0 0;
+}
+
+a.dif{
+	color:black;
+	text-decoration:none;
+}
+
+a.dif:hover{
+	color:red;
+	
+}
